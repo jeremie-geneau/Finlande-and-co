@@ -1,0 +1,49 @@
+/*font*/
+@import url('https://fonts.googleapis.com/css2?family=Allison&display=swap');
+
+/*components*/
+@import url("https://fonts.googleapis.com/css?family=Lora:400,700|Roboto:300,400,700");
+@import url("components/avatar.css");
+@import url("components/banner.css");
+@import url("components/button.css");
+@import url("components/container.css");
+body{
+  font-family: 'Lora', serif;
+  font-size: 18px;
+  margin: 0px;
+  color: darkred;
+}
+
+h1 {
+  color: darkred;
+  font-family: 'Allison', cursive;
+  font-weight: bold;
+}
+
+
+.card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+                padding: 20px;
+}
+.card img {
+  width: 150px;
+}
+.card h3 {
+  flex-grow: 1;
+  padding-left: 20px;
+}
+ 
+.card {
+  display: flex;
+                flex-wrap: wrap;
+}
+.card{
+  flex-basis: 250px;
+                flex-grow: 1;
+                margin: 10px;
+}
+.card {
+                border-radius: 4px;
+                }
